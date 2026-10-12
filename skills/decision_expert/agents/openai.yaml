@@ -1,0 +1,4 @@
+interface:
+  display_name: "decision_expert"
+  short_description: "重大决策前先全力反驳，再最强支持，最后依据证据裁决并给出反转条件"
+  default_prompt: "请用 $decision_expert 审查我的重大决定：先全力反驳，再给最强支持，最后按证据给出建议、最大未知风险、反转条件和下一步。"
